@@ -1,0 +1,139 @@
+/**/
+
+.banner video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+     z-index: -3;
+}
+body{
+    /*background-color: rgb(34, 34, 34);*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    max-width: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    height: 85px;
+    z-index: 1;
+}
+
+#titulo{
+    flex-direction: column;
+    line-height: 75%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px #000;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 28px;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 510;
+}
+
+a{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    content: 0px;
+}
+main{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h2{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 20px;
+    text-shadow: 1.9px 0.9px #000;
+}
+h2 span{
+    color: #3c1c9ce4;
+    text-shadow: 1.8px 1.4px #fff;
+    
+}
+a:hover{
+    transition: 0.3s all;
+    color: #3c1c9ce4;
+}
+a span{
+     border: solid #ffffffce;
+     padding: 15px 20px 10px 20px;
+     border-radius: 10px;
+     
+}
+a span:hover{
+    background-color:#3c1c9ce4;
+    color: rgb(255, 255, 255);
+    border: solid #3c1c9ce4;
+    transition: 0.25s;
+}
+aside{
+    max-width: 45%;
+}
+aside p{
+    font-size: 1.1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+input{
+    margin-top: 4%;
+    border-radius: 10px;
+    height: 30px;
+    border-color: #000000e4;
+    box-shadow: #000000 9px 7px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+form ::placeholder{
+    color: #0000008e;
+}
+form [type="submit"]{
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #3c1c9ce4;
+    cursor: pointer;
+}
+article{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#autor{
+    flex-direction: row;
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    font-size: smaller;
+}
+
